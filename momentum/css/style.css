@@ -1,7 +1,63 @@
-.hidden {
-	display: none;
+body {
+	width: 100%;
+	font-family: 'Silkscreen', cursive;
 }
 
-img {
-	width: 1200px;
+#background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: transparent;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+}
+
+.viewport {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#get-name {
+	width: 800px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#get-name span,
+#get-name form {
+	display: block;
+}
+
+#question {
+	color: white;
+	font-size: 48px;
+}
+
+#login-form input {
+	margin-top: 10px;
+	width: 790px;
+	font-size: 48px;
+	background-color: transparent;
+	border-width: 0px 0px 3px 0px;
+	border-color: white;
+	text-align: center;
+	color: white;
+	font-family: 'Silkscreen', cursive;
+}
+
+.hidden {
+	display: none;
 }
